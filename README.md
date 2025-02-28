@@ -43,7 +43,7 @@ exam.html         -> Examination page
 1. **Login**:
    - Enter a valid email and password.
    - Click "Login" to proceed.
-   - If "Remember me" is checked, user details are stored in `localStorage`.
+   - If "Remember me" is checked, user details are stored in `Cookies`.
 2. **Select Exam**:
    - Choose a subject and difficulty level.
    - Click "Start Exam".
