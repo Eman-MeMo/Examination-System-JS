@@ -1,0 +1,1493 @@
+{
+    "Questions": [
+        {
+            "id": 1,
+            "mark": 3,
+            "body": "C# supports multiple inheritance through classes.",
+            "correct_answer": "False",
+            "course": "C#",
+            "level": "Easy",
+            "choices": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "id": 2,
+            "mark": 3,
+            "body": "Which keyword is used to define a class in C#?",
+            "correct_answer": "class",
+            "course": "C#",
+            "level": "Easy",
+            "choices": [
+                "class",
+                "struct",
+                "interface",
+                "enum"
+            ]
+        },
+        {
+            "id": 3,
+            "mark": 4,
+            "body": "Which SQL clause is used to filter aggregated results?",
+            "correct_answer": "HAVING",
+            "course": "SQL",
+            "level": "Intermediate",
+            "choices": [
+                "WHERE",
+                "HAVING",
+                "GROUP BY",
+                "ORDER BY"
+            ]
+        },
+        {
+            "id": 4,
+            "mark": 3,
+            "body": "What is the default access modifier for a class in C#?",
+            "correct_answer": "internal",
+            "course": "C#",
+            "level": "Easy",
+            "choices": [
+                "private",
+                "public",
+                "protected",
+                "internal"
+            ]
+        },
+        {
+            "id": 5,
+            "mark": 4,
+            "body": "What is the difference between CHAR and VARCHAR data types?",
+            "correct_answer": "CHAR has a fixed length, VARCHAR has a variable length.",
+            "course": "SQL",
+            "level": "Intermediate",
+            "choices": [
+                "CHAR has a fixed length, VARCHAR has a variable length.",
+                "VARCHAR is faster than CHAR.",
+                "CHAR allows only numbers, VARCHAR allows text.",
+                "There is no difference."
+            ]
+        },
+        {
+            "id": 6,
+            "mark": 3,
+            "body": "Which of the following is a value type in C#?",
+            "correct_answer": "int",
+            "course": "C#",
+            "level": "Easy",
+            "choices": [
+                "class",
+                "int",
+                "interface",
+                "delegate"
+            ]
+        },
+        {
+            "id": 7,
+            "mark": 4,
+            "body": "Which statement is used to remove a database in SQL?",
+            "correct_answer": "DROP DATABASE",
+            "course": "SQL",
+            "level": "Intermediate",
+            "choices": [
+                "DELETE DATABASE",
+                "REMOVE DATABASE",
+                "DROP DATABASE",
+                "CLEAR DATABASE"
+            ]
+        },
+        {
+            "id": 8,
+            "mark": 3,
+            "body": "Does C# support method overloading?",
+            "correct_answer": "True",
+            "course": "C#",
+            "level": "Easy",
+            "choices": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "id": 9,
+            "mark": 4,
+            "body": "What is the purpose of the SQL INDEX?",
+            "correct_answer": "To speed up search queries.",
+            "course": "SQL",
+            "level": "Intermediate",
+            "choices": [
+                "To store unique values.",
+                "To speed up search queries.",
+                "To create relationships between tables.",
+                "To encrypt data."
+            ]
+        },
+        {
+            "id": 10,
+            "mark": 3,
+            "body": "Which of the following statements about C# is correct?",
+            "correct_answer": "C# is a strongly-typed, object-oriented language.",
+            "course": "C#",
+            "level": "Easy",
+            "choices": [
+                "C# is a weakly-typed language.",
+                "C# does not support object-oriented programming.",
+                "C# is a strongly-typed, object-oriented language.",
+                "C# does not support polymorphism."
+            ]
+        },
+        {
+            "id": 11,
+            "mark": 5,
+            "body": "What is a Common Table Expression (CTE) in SQL?",
+            "correct_answer": "A temporary result set used within a SELECT, INSERT, UPDATE, or DELETE statement.",
+            "course": "SQL",
+            "level": "Hard",
+            "choices": [
+                "A temporary table stored in memory.",
+                "A stored procedure for complex queries.",
+                "A temporary result set used within a SELECT, INSERT, UPDATE, or DELETE statement.",
+                "A new type of database view."
+            ]
+        },
+        {
+            "id": 12,
+            "mark": 4,
+            "body": "What is the purpose of the 'using' directive in C#?",
+            "correct_answer": "To include namespaces in a program.",
+            "course": "C#",
+            "level": "Intermediate",
+            "choices": [
+                "To import libraries from other languages.",
+                "To include namespaces in a program.",
+                "To define a new class.",
+                "To create an alias for a class."
+            ]
+        },
+        {
+            "id": 13,
+            "mark": 5,
+            "body": "What is the difference between a clustered and a non-clustered index?",
+            "correct_answer": "A clustered index sorts and stores data rows in order, while a non-clustered index does not.",
+            "course": "SQL",
+            "level": "Hard",
+            "choices": [
+                "There is no difference.",
+                "A non-clustered index sorts data, while a clustered index does not.",
+                "A clustered index sorts and stores data rows in order, while a non-clustered index does not.",
+                "A clustered index stores data in a separate table."
+            ]
+        },
+        {
+            "id": 14,
+            "mark": 4,
+            "body": "Which C# keyword is used to prevent a class from being inherited?",
+            "correct_answer": "sealed",
+            "course": "C#",
+            "level": "Intermediate",
+            "choices": [
+                "static",
+                "final",
+                "sealed",
+                "abstract"
+            ]
+        },
+        {
+            "id": 15,
+            "mark": 5,
+            "body": "Which SQL function is used for ranking rows within a partition?",
+            "correct_answer": "ROW_NUMBER()",
+            "course": "SQL",
+            "level": "Hard",
+            "choices": [
+                "RANK()",
+                "DENSE_RANK()",
+                "ROW_NUMBER()",
+                "NTILE()"
+            ]
+        },
+        {
+            "id": 16,
+            "mark": 4,
+            "body": "What is the difference between 'out' and 'ref' parameters in C#?",
+            "correct_answer": "'ref' requires initialization before passing, 'out' does not.",
+            "course": "C#",
+            "level": "Intermediate",
+            "choices": [
+                "Both are the same.",
+                "'out' requires initialization before passing, 'ref' does not.",
+                "'ref' requires initialization before passing, 'out' does not.",
+                "'ref' and 'out' can only be used in constructors."
+            ]
+        },
+        {
+            "id": 17,
+            "mark": 5,
+            "body": "What is the purpose of the MERGE statement in SQL?",
+            "correct_answer": "It allows INSERT, UPDATE, and DELETE in a single statement.",
+            "course": "SQL",
+            "level": "Hard",
+            "choices": [
+                "It is used for database backups.",
+                "It allows INSERT, UPDATE, and DELETE in a single statement.",
+                "It merges duplicate rows.",
+                "It creates a new table from existing tables."
+            ]
+        },
+        {
+            "id": 18,
+            "mark": 4,
+            "body": "Which of the following is a correct way to declare a delegate in C#?",
+            "correct_answer": "public delegate void MyDelegate(int x);",
+            "course": "C#",
+            "level": "Intermediate",
+            "choices": [
+                "public event void MyDelegate(int x);",
+                "public delegate void MyDelegate(int x);",
+                "public void MyDelegate(int x);",
+                "delegate event void MyDelegate(int x);"
+            ]
+        },
+        {
+            "id": 19,
+            "mark": 5,
+            "body": "What does ACID stand for in database transactions?",
+            "correct_answer": "Atomicity, Consistency, Isolation, Durability.",
+            "course": "SQL",
+            "level": "Hard",
+            "choices": [
+                "Automated, Consistent, Instant, Durable.",
+                "Atomicity, Consistency, Isolation, Durability.",
+                "Advanced, Complex, Indexed, Distributed.",
+                "Atomic, Common, Integrated, Dynamic."
+            ]
+        },
+        {
+            "id": 20,
+            "mark": 4,
+            "body": "What is the role of the 'base' keyword in C#?",
+            "correct_answer": "It is used to access the base class constructor or methods.",
+            "course": "C#",
+            "level": "Intermediate",
+            "choices": [
+                "It is used to define a base class.",
+                "It is used to access the base class constructor or methods.",
+                "It is used for memory management.",
+                "It is used for multi-threading."
+            ]
+        },
+        {
+            "id": 21,
+            "mark": 5,
+            "body": "Which SQL statement is used to create a stored procedure?",
+            "correct_answer": "CREATE PROCEDURE",
+            "course": "SQL",
+            "level": "Hard",
+            "choices": [
+                "CREATE FUNCTION",
+                "CREATE PROCEDURE",
+                "CREATE TRIGGER",
+                "CREATE VIEW"
+            ]
+        },
+        {
+            "id": 22,
+            "mark": 4,
+            "body": "Which LINQ method is used to filter a sequence based on a condition?",
+            "correct_answer": "Where",
+            "course": "C#",
+            "level": "Intermediate",
+            "choices": [
+                "Select",
+                "GroupBy",
+                "Where",
+                "OrderBy"
+            ]
+        },
+        {
+            "id": 23,
+            "mark": 5,
+            "body": "Which HTML element is used to create a table?",
+            "correct_answer": "table",
+            "course": "HTML",
+            "level": "Easy",
+            "choices": [
+                "table",
+                "tr",
+                "td",
+                "th"
+            ]
+        },
+        {
+            "id": 24,
+            "mark": 5,
+            "body": "What is the main advantage of using the 'Span<T>' type in C#?",
+            "correct_answer": "It provides a memory-efficient way to work with slices of arrays and memory blocks.",
+            "course": "C#",
+            "level": "Hard",
+            "choices": [
+                "It improves LINQ query performance.",
+                "It allows defining inline functions.",
+                "It provides a memory-efficient way to work with slices of arrays and memory blocks.",
+                "It replaces the need for interfaces."
+            ]
+        },
+        {
+            "id": 25,
+            "mark": 5,
+            "body": "Which HTML attribute is used to specify the background color of an element?",
+            "correct_answer": "style",
+            "course": "HTML",
+            "level": "Easy",
+            "choices": [
+                "class",
+                "id",
+                "style",
+                "src"
+            ]
+        },
+        {
+            "id": 26,
+            "mark": 5,
+            "body": "Which of the following C# features allows for safe manipulation of memory outside the managed heap?",
+            "correct_answer": "Unsafe code and pointers.",
+            "course": "C#",
+            "level": "Hard",
+            "choices": [
+                "Garbage collection.",
+                "Unsafe code and pointers.",
+                "Async/Await.",
+                "Reflection."
+            ]
+        },
+        {
+            "id": 27,
+            "mark": 5,
+            "body": "Which HTML element is used to create a list?",
+            "correct_answer": "ul",
+            "course": "HTML",
+            "level": "Easy",
+            "choices": [
+                "ul",
+                "ol",
+                "li",
+                "dl"
+            ]
+        },
+        {
+            "id": 28,
+            "mark": 5,
+            "body": "In C#, what is the difference between 'Task' and 'ValueTask'?",
+            "correct_answer": "'ValueTask' avoids heap allocations when a result is already available.",
+            "course": "C#",
+            "level": "Hard",
+            "choices": [
+                "'ValueTask' is a struct, whereas 'Task' is a class.",
+                "'Task' is used for synchronous operations.",
+                "'ValueTask' avoids heap allocations when a result is already available.",
+                "'Task' always returns a value, whereas 'ValueTask' does not."
+            ]
+        },
+        {
+            "id": 29,
+            "mark": 5,
+            "body": "Which HTML element is used to create a form?",
+            "correct_answer": "form",
+            "course": "HTML",
+            "level": "Easy",
+            "choices": [
+                "form",
+                "input",
+                "button",
+                "select"
+            ]
+        },
+        {
+            "id": 30,
+            "mark": 5,
+            "body": "What is the primary use of the 'record' type introduced in C# 9?",
+            "correct_answer": "To define immutable reference types with built-in value equality.",
+            "course": "C#",
+            "level": "Hard",
+            "choices": [
+                "To define immutable reference types with built-in value equality.",
+                "To enforce compile-time constraints on method parameters.",
+                "To implement memory pooling.",
+                "To speed up interface method resolution."
+            ]
+        },
+        {
+            "id": 31,
+            "mark": 5,
+            "body": "Which HTML element is used to create a heading?",
+            "correct_answer": "h1",
+            "course": "HTML",
+            "level": "Easy",
+            "choices": [
+                "h1",
+                "h2",
+                "h3",
+                "h4"
+            ]
+        },
+        {
+            "id": 32,
+            "mark": 5,
+            "body": "What does the 'default interface method' feature in C# allow?",
+            "correct_answer": "Interfaces can have method implementations that subclasses may override.",
+            "course": "C#",
+            "level": "Hard",
+            "choices": [
+                "Interfaces can define fields.",
+                "Interfaces can have method implementations that subclasses may override.",
+                "Interfaces can be instantiated directly.",
+                "Interfaces support operator overloading."
+            ]
+        },
+        {
+            "id": 33,
+            "mark": 5,
+            "body": "Which HTML element is used to create a paragraph?",
+            "correct_answer": "p",
+            "course": "HTML",
+            "level": "Easy",
+            "choices": [
+                "p",
+                "span",
+                "div",
+                "a"
+            ]
+        },
+        {
+            "id": 34,
+            "mark": 3,
+            "body": "Which SQL statement is used to modify existing records?",
+            "correct_answer": "UPDATE",
+            "course": "SQL",
+            "level": "Easy",
+            "choices": [
+                "INSERT",
+                "DELETE",
+                "UPDATE",
+                "ALTER"
+            ]
+        },
+        {
+            "id": 35,
+            "mark": 5,
+            "body": "Which HTML element is used to create a link?",
+            "correct_answer": "a",
+            "course": "HTML",
+            "level": "Easy",
+            "choices": [
+                "a",
+                "span",
+                "div",
+                "p"
+            ]
+        },
+        {
+            "id": 36,
+            "mark": 3,
+            "body": "Which SQL constraint ensures that a column cannot have NULL values?",
+            "correct_answer": "NOT NULL",
+            "course": "SQL",
+            "level": "Easy",
+            "choices": [
+                "PRIMARY KEY",
+                "NOT NULL",
+                "CHECK",
+                "UNIQUE"
+            ]
+        },
+        {
+            "id": 37,
+            "mark": 5,
+            "body": "Which HTML element is used to create an image?",
+            "correct_answer": "img",
+            "course": "HTML",
+            "level": "Easy",
+            "choices": [
+                "img",
+                "span",
+                "div",
+                "p"
+            ]
+        },
+        {
+            "id": 38,
+            "mark": 3,
+            "body": "What is the purpose of the SQL 'HAVING' clause?",
+            "correct_answer": "To filter records after aggregation.",
+            "course": "SQL",
+            "level": "Easy",
+            "choices": [
+                "To filter records before aggregation.",
+                "To filter records after aggregation.",
+                "To group records together.",
+                "To order records."
+            ]
+        },
+        {
+            "id": 39,
+            "mark": 5,
+            "body": "Which HTML element is used to create a table?",
+            "correct_answer": "table",
+            "course": "HTML",
+            "level": "Easy",
+            "choices": [
+                "table",
+                "tr",
+                "td",
+                "th"
+            ]
+        },
+        {
+            "id": 40,
+            "mark": 3,
+            "body": "Which SQL statement is used to create a new table?",
+            "correct_answer": "CREATE TABLE",
+            "course": "SQL",
+            "level": "Easy",
+            "choices": [
+                "ADD TABLE",
+                "NEW TABLE",
+                "CREATE TABLE",
+                "INSERT INTO"
+            ]
+        },
+        {
+            "id": 41,
+            "mark": 5,
+            "body": "Which HTML element is used to create a form?",
+            "correct_answer": "form",
+            "course": "HTML",
+            "level": "Intermediate",
+            "choices": [
+                "form",
+                "input",
+                "button",
+                "select"
+            ]
+        },
+        {
+            "id": 42,
+            "mark": 3,
+            "body": "What is the SQL command to remove all records from a table without deleting the table itself?",
+            "correct_answer": "DELETE",
+            "course": "SQL",
+            "level": "Easy",
+            "choices": [
+                "DROP",
+                "DELETE",
+                "REMOVE",
+                "CLEAR"
+            ]
+        },
+        {
+            "id": 43,
+            "mark": 5,
+            "body": "Which HTML element is used to create a heading?",
+            "correct_answer": "h1",
+            "course": "HTML",
+            "level": "Intermediate",
+            "choices": [
+                "h1",
+                "h2",
+                "h3",
+                "h4"
+            ]
+        },
+        {
+            "id": 44,
+            "mark": 3,
+            "body": "Which SQL function is used to return the total number of rows in a result set?",
+            "correct_answer": "COUNT",
+            "course": "SQL",
+            "level": "Easy",
+            "choices": [
+                "SUM",
+                "COUNT",
+                "AVG",
+                "TOTAL"
+            ]
+        },
+        {
+            "id": 45,
+            "mark": 5,
+            "body": "Which HTML element is used to create a paragraph?",
+            "correct_answer": "p",
+            "course": "HTML",
+            "level": "Intermediate",
+            "choices": [
+                "p",
+                "span",
+                "div",
+                "a"
+            ]
+        },
+        {
+            "id": 46,
+            "mark": 3,
+            "body": "Which keyword is used to sort the result set in SQL?",
+            "correct_answer": "ORDER BY",
+            "course": "SQL",
+            "level": "Easy",
+            "choices": [
+                "SORT",
+                "ORDER BY",
+                "GROUP BY",
+                "FILTER BY"
+            ]
+        },
+        {
+            "id": 47,
+            "mark": 5,
+            "body": "Which HTML element is used to create a link?",
+            "correct_answer": "a",
+            "course": "HTML",
+            "level": "Intermediate",
+            "choices": [
+                "a",
+                "span",
+                "div",
+                "p"
+            ]
+        },
+        {
+            "id": 48,
+            "mark": 3,
+            "body": "What is the default sorting order of the ORDER BY clause in SQL?",
+            "correct_answer": "Ascending",
+            "course": "SQL",
+            "level": "Easy",
+            "choices": [
+                "Ascending",
+                "Descending",
+                "Random",
+                "None"
+            ]
+        },
+        {
+            "id": 49,
+            "mark": 5,
+            "body": "Which HTML element is used to create an image?",
+            "correct_answer": "img",
+            "course": "HTML",
+            "level": "Intermediate",
+            "choices": [
+                "img",
+                "span",
+                "div",
+                "p"
+            ]
+        },
+        {
+            "id": 50,
+            "mark": 3,
+            "body": "Which SQL clause is used to retrieve unique values from a column?",
+            "correct_answer": "DISTINCT",
+            "course": "SQL",
+            "level": "Easy",
+            "choices": [
+                "UNIQUE",
+                "DISTINCT",
+                "FILTER",
+                "SELECT UNIQUE"
+            ]
+        },
+        {
+            "id": 51,
+            "mark": 5,
+            "body": "What is the primary purpose of the 'shadow DOM' in HTML?",
+            "correct_answer": "To encapsulate styles and markup to prevent conflicts.",
+            "course": "HTML",
+            "level": "Hard",
+            "choices": [
+                "To create a backup of the main DOM.",
+                "To improve SEO performance.",
+                "To encapsulate styles and markup to prevent conflicts.",
+                "To increase website loading speed."
+            ]
+        },
+        {
+            "id": 52,
+            "mark": 3,
+            "body": "What is the primary purpose of the SQL 'GROUP BY' clause?",
+            "correct_answer": "To aggregate data based on one or more columns.",
+            "course": "SQL",
+            "level": "Easy",
+            "choices": [
+                "To filter data.",
+                "To aggregate data based on one or more columns.",
+                "To sort data.",
+                "To remove duplicates."
+            ]
+        },
+        {
+            "id": 53,
+            "mark": 5,
+            "body": "Which HTML element is used to declare a custom web component?",
+            "correct_answer": "The 'customElements.define' API in JavaScript.",
+            "course": "HTML",
+            "level": "Hard",
+            "choices": [
+                "The 'component' tag.",
+                "The 'shadow-root' element.",
+                "The 'customElements.define' API in JavaScript.",
+                "The 'template' tag."
+            ]
+        },
+        {
+            "id": 54,
+            "mark": 4,
+            "body": "What does the COALESCE function do in SQL?",
+            "correct_answer": "Returns the first non-null value in a list.",
+            "course": "SQL",
+            "level": "Intermediate",
+            "choices": [
+                "Returns the first non-null value in a list.",
+                "Combines two tables together.",
+                "Checks for duplicate values.",
+                "Performs a mathematical calculation."
+            ]
+        },
+        {
+            "id": 55,
+            "mark": 5,
+            "body": "What does the 'loading=\"lazy\"' attribute do in an HTML 'img' tag?",
+            "correct_answer": "It defers the loading of the image until it is needed.",
+            "course": "HTML",
+            "level": "Hard",
+            "choices": [
+                "It prevents the image from being loaded.",
+                "It loads the image immediately.",
+                "It defers the loading of the image until it is needed.",
+                "It preloads the image before the page is rendered."
+            ]
+        },
+        {
+            "id": 56,
+            "mark": 5,
+            "body": "Which of the following HTML elements is required to create a progressive web app (PWA)?",
+            "correct_answer": "The 'manifest.json' file and a service worker.",
+            "course": "HTML",
+            "level": "Hard",
+            "choices": [
+                "The 'progressive' tag.",
+                "The 'manifest.json' file and a service worker.",
+                "The 'webapp' attribute in the 'head' tag.",
+                "A special 'pwa' meta tag."
+            ]
+        },
+        {
+            "id": 57,
+            "mark": 5,
+            "body": "What is the purpose of the 'is' attribute in the 'custom elements' feature of HTML?",
+            "correct_answer": "It allows extending built-in HTML elements.",
+            "course": "HTML",
+            "level": "Hard",
+            "choices": [
+                "It allows defining inline JavaScript inside HTML.",
+                "It defines an ID for accessibility purposes.",
+                "It allows extending built-in HTML elements.",
+                "It is used to specify an element’s CSS class."
+            ]
+        },
+        {
+            "id": 58,
+            "mark": 3,
+            "body": "Which property is used to change the text color of an element in CSS?",
+            "correct_answer": "color",
+            "course": "CSS",
+            "level": "Easy",
+            "choices": [
+                "background-color",
+                "text-color",
+                "color",
+                "font-color"
+            ]
+        },
+        {
+            "id": 59,
+            "mark": 3,
+            "body": "Which CSS property controls the spacing between elements?",
+            "correct_answer": "margin",
+            "course": "CSS",
+            "level": "Easy",
+            "choices": [
+                "padding",
+                "margin",
+                "spacing",
+                "border"
+            ]
+        },
+        {
+            "id": 60,
+            "mark": 3,
+            "body": "What is the default position of an HTML element?",
+            "correct_answer": "static",
+            "course": "CSS",
+            "level": "Easy",
+            "choices": [
+                "relative",
+                "absolute",
+                "fixed",
+                "static"
+            ]
+        },
+        {
+            "id": 61,
+            "mark": 3,
+            "body": "Which property is used to make text bold in CSS?",
+            "correct_answer": "font-weight",
+            "course": "CSS",
+            "level": "Easy",
+            "choices": [
+                "font-bold",
+                "text-weight",
+                "font-style",
+                "font-weight"
+            ]
+        },
+        {
+            "id": 62,
+            "mark": 3,
+            "body": "Which CSS property is used to set the background image of an element?",
+            "correct_answer": "background-image",
+            "course": "CSS",
+            "level": "Easy",
+            "choices": [
+                "image-background",
+                "background-src",
+                "background-image",
+                "bg-image"
+            ]
+        },
+        {
+            "id": 63,
+            "mark": 3,
+            "body": "Which CSS property is used to make a website responsive?",
+            "correct_answer": "media queries",
+            "course": "CSS",
+            "level": "Easy",
+            "choices": [
+                "flexbox",
+                "grid",
+                "media queries",
+                "responsive-mode"
+            ]
+        },
+        {
+            "id": 64,
+            "mark": 3,
+            "body": "Which CSS unit is relative to the font-size of the parent element?",
+            "correct_answer": "em",
+            "course": "CSS",
+            "level": "Easy",
+            "choices": [
+                "px",
+                "rem",
+                "em",
+                "%"
+            ]
+        },
+        {
+            "id": 65,
+            "mark": 3,
+            "body": "Which CSS property is used to add space inside an element’s border?",
+            "correct_answer": "padding",
+            "course": "CSS",
+            "level": "Easy",
+            "choices": [
+                "margin",
+                "spacing",
+                "padding",
+                "border-spacing"
+            ]
+        },
+        {
+            "id": 66,
+            "mark": 3,
+            "body": "Which property is used to change the size of text in CSS?",
+            "correct_answer": "font-size",
+            "course": "CSS",
+            "level": "Easy",
+            "choices": [
+                "text-size",
+                "font-weight",
+                "font-size",
+                "text-style"
+            ]
+        },
+        {
+            "id": 67,
+            "mark": 3,
+            "body": "Which CSS property is used to create rounded corners?",
+            "correct_answer": "border-radius",
+            "course": "CSS",
+            "level": "Easy",
+            "choices": [
+                "border-style",
+                "corner-style",
+                "border-radius",
+                "rounded-corners"
+            ]
+        },
+        {
+            "id": 68,
+            "mark": 4,
+            "body": "Which CSS property is used to create a flex container?",
+            "correct_answer": "display: flex",
+            "course": "CSS",
+            "level": "Intermediate",
+            "choices": [
+                "display: grid",
+                "display: flex",
+                "display: block",
+                "display: inline-flex"
+            ]
+        },
+        {
+            "id": 69,
+            "mark": 4,
+            "body": "What is the default flex-direction in a flex container?",
+            "correct_answer": "row",
+            "course": "CSS",
+            "level": "Intermediate",
+            "choices": [
+                "column",
+                "row",
+                "row-reverse",
+                "column-reverse"
+            ]
+        },
+        {
+            "id": 70,
+            "mark": 4,
+            "body": "Which CSS property is used to control element stacking order?",
+            "correct_answer": "z-index",
+            "course": "CSS",
+            "level": "Intermediate",
+            "choices": [
+                "order",
+                "z-layer",
+                "stack-index",
+                "z-index"
+            ]
+        },
+        {
+            "id": 71,
+            "mark": 4,
+            "body": "Which value of the position property will place an element relative to its nearest positioned ancestor?",
+            "correct_answer": "absolute",
+            "course": "CSS",
+            "level": "Intermediate",
+            "choices": [
+                "static",
+                "relative",
+                "absolute",
+                "fixed"
+            ]
+        },
+        {
+            "id": 72,
+            "mark": 4,
+            "body": "Which CSS feature allows for the creation of complex, responsive grid layouts?",
+            "correct_answer": "CSS Grid",
+            "course": "CSS",
+            "level": "Intermediate",
+            "choices": [
+                "Flexbox",
+                "CSS Grid",
+                "Bootstrap",
+                "Table Layout"
+            ]
+        },
+        {
+            "id": 73,
+            "mark": 4,
+            "body": "Which CSS function is used to apply a transformation like rotation, scaling, or translation?",
+            "correct_answer": "transform",
+            "course": "CSS",
+            "level": "Intermediate",
+            "choices": [
+                "modify",
+                "transition",
+                "transform",
+                "animation"
+            ]
+        },
+        {
+            "id": 74,
+            "mark": 5,
+            "body": "Which CSS property allows an element to be drawn in multiple places at once?",
+            "correct_answer": "clip-path",
+            "course": "CSS",
+            "level": "Hard",
+            "choices": [
+                "clip-path",
+                "mask",
+                "visibility",
+                "transform"
+            ]
+        },
+        {
+            "id": 75,
+            "mark": 5,
+            "body": "What does the CSS 'contain' property do?",
+            "correct_answer": "It improves rendering performance by limiting the scope of an element's styles and layout.",
+            "course": "CSS",
+            "level": "Hard",
+            "choices": [
+                "It contains floated elements inside a parent div.",
+                "It prevents an element from inheriting styles.",
+                "It improves rendering performance by limiting the scope of an element's styles and layout.",
+                "It ensures an element is fully visible in the viewport."
+            ]
+        },
+        {
+            "id": 76,
+            "mark": 5,
+            "body": "Which CSS property allows you to create a custom shape for an element's hit area?",
+            "correct_answer": "shape-outside",
+            "course": "CSS",
+            "level": "Hard",
+            "choices": [
+                "clip-path",
+                "shape-outside",
+                "border-radius",
+                "mask"
+            ]
+        },
+        {
+            "id": 77,
+            "mark": 5,
+            "body": "What is the primary advantage of using CSS Subgrid?",
+            "correct_answer": "It allows nested elements to inherit the grid structure of their parent.",
+            "course": "CSS",
+            "level": "Hard",
+            "choices": [
+                "It enables animations within CSS Grid.",
+                "It allows nested elements to inherit the grid structure of their parent.",
+                "It improves browser compatibility for older grid layouts.",
+                "It simplifies media queries for responsive design."
+            ]
+        },
+        {
+            "id": 78,
+            "mark": 5,
+            "body": "Which of the following CSS pseudo-classes selects an element when it is in fullscreen mode?",
+            "correct_answer": ":fullscreen",
+            "course": "CSS",
+            "level": "Hard",
+            "choices": [
+                ":fullscreen",
+                ":focus-within",
+                ":target",
+                ":hover"
+            ]
+        },
+        {
+            "id": 79,
+            "mark": 3,
+            "body": "Which keyword is used to declare a variable in JavaScript?",
+            "correct_answer": "var",
+            "course": "JavaScript",
+            "level": "Easy",
+            "choices": [
+                "var",
+                "let",
+                "const",
+                "int"
+            ]
+        },
+        {
+            "id": 80,
+            "mark": 3,
+            "body": "Which method is used to display a message in the browser console?",
+            "correct_answer": "console.log()",
+            "course": "JavaScript",
+            "level": "Easy",
+            "choices": [
+                "console.write()",
+                "console.log()",
+                "alert()",
+                "document.write()"
+            ]
+        },
+        {
+            "id": 81,
+            "mark": 3,
+            "body": "How do you create a function in JavaScript?",
+            "correct_answer": "function myFunction() {}",
+            "course": "JavaScript",
+            "level": "Easy",
+            "choices": [
+                "function: myFunction {}",
+                "function myFunction() {}",
+                "def myFunction() {}",
+                "func myFunction() {}"
+            ]
+        },
+        {
+            "id": 82,
+            "mark": 3,
+            "body": "Which symbol is used for single-line comments in JavaScript?",
+            "correct_answer": "//",
+            "course": "JavaScript",
+            "level": "Easy",
+            "choices": [
+                "#",
+                "//",
+                "/*",
+                "--"
+            ]
+        },
+        {
+            "id": 83,
+            "mark": 3,
+            "body": "What is the output of `typeof 42`?",
+            "correct_answer": "number",
+            "course": "JavaScript",
+            "level": "Easy",
+            "choices": [
+                "integer",
+                "number",
+                "float",
+                "string"
+            ]
+        },
+        {
+            "id": 84,
+            "mark": 3,
+            "body": "Which JavaScript operator is used for strict equality comparison?",
+            "correct_answer": "===",
+            "course": "JavaScript",
+            "level": "Easy",
+            "choices": [
+                "==",
+                "===",
+                "!=",
+                "<>"
+            ]
+        },
+        {
+            "id": 85,
+            "mark": 3,
+            "body": "Which function is used to parse a string to an integer in JavaScript?",
+            "correct_answer": "parseInt()",
+            "course": "JavaScript",
+            "level": "Easy",
+            "choices": [
+                "parseInt()",
+                "toInteger()",
+                "int()",
+                "Number.parseInt()"
+            ]
+        },
+        {
+            "id": 86,
+            "mark": 3,
+            "body": "What will `Boolean(0)` return?",
+            "correct_answer": "false",
+            "course": "JavaScript",
+            "level": "Easy",
+            "choices": [
+                "true",
+                "false",
+                "undefined",
+                "null"
+            ]
+        },
+        {
+            "id": 87,
+            "mark": 3,
+            "body": "Which built-in object allows you to work with dates and times in JavaScript?",
+            "correct_answer": "Date",
+            "course": "JavaScript",
+            "level": "Easy",
+            "choices": [
+                "Time",
+                "Clock",
+                "Date",
+                "Calendar"
+            ]
+        },
+        {
+            "id": 88,
+            "mark": 3,
+            "body": "How do you write an if statement in JavaScript?",
+            "correct_answer": "if (condition) {}",
+            "course": "JavaScript",
+            "level": "Easy",
+            "choices": [
+                "if condition {}",
+                "if (condition) {}",
+                "if {condition} {}",
+                "if: condition {}"
+            ]
+        },
+        {
+            "id": 89,
+            "mark": 4,
+            "body": "Which JavaScript function is used to execute another function after a given time?",
+            "correct_answer": "setTimeout()",
+            "course": "JavaScript",
+            "level": "Intermediate",
+            "choices": [
+                "setTimeout()",
+                "setInterval()",
+                "wait()",
+                "delay()"
+            ]
+        },
+        {
+            "id": 90,
+            "mark": 4,
+            "body": "How do you check if an array includes a certain value in JavaScript?",
+            "correct_answer": "array.includes(value)",
+            "course": "JavaScript",
+            "level": "Intermediate",
+            "choices": [
+                "array.includes(value)",
+                "array.contains(value)",
+                "array.has(value)",
+                "array.exists(value)"
+            ]
+        },
+        {
+            "id": 91,
+            "mark": 4,
+            "body": "What will be the output of `console.log(typeof NaN);`?",
+            "correct_answer": "number",
+            "course": "JavaScript",
+            "level": "Intermediate",
+            "choices": [
+                "NaN",
+                "undefined",
+                "number",
+                "string"
+            ]
+        },
+        {
+            "id": 92,
+            "mark": 4,
+            "body": "Which keyword is used to create a JavaScript class?",
+            "correct_answer": "class",
+            "course": "JavaScript",
+            "level": "Intermediate",
+            "choices": [
+                "class",
+                "constructor",
+                "define",
+                "object"
+            ]
+        },
+        {
+            "id": 93,
+            "mark": 4,
+            "body": "Which method is used to remove the last element of an array in JavaScript?",
+            "correct_answer": "pop()",
+            "course": "JavaScript",
+            "level": "Intermediate",
+            "choices": [
+                "pop()",
+                "shift()",
+                "removeLast()",
+                "splice()"
+            ]
+        },
+        {
+            "id": 94,
+            "mark": 4,
+            "body": "Which of the following statements about JavaScript closures is true?",
+            "correct_answer": "A closure is a function that remembers variables from its outer scope.",
+            "course": "JavaScript",
+            "level": "Intermediate",
+            "choices": [
+                "A closure is a function that only works inside objects.",
+                "A closure is a function that executes immediately.",
+                "A closure is a function that remembers variables from its outer scope.",
+                "A closure cannot be nested inside another function."
+            ]
+        },
+        {
+            "id": 95,
+            "mark": 5,
+            "body": "Which JavaScript method is used to deep clone an object?",
+            "correct_answer": "structuredClone()",
+            "course": "JavaScript",
+            "level": "Hard",
+            "choices": [
+                "Object.assign()",
+                "JSON.parse(JSON.stringify())",
+                "structuredClone()",
+                "cloneDeep()"
+            ]
+        },
+        {
+            "id": 96,
+            "mark": 5,
+            "body": "What is the purpose of the 'Symbol' type in JavaScript?",
+            "correct_answer": "To create unique property keys that won't conflict with other keys.",
+            "course": "JavaScript",
+            "level": "Hard",
+            "choices": [
+                "To generate random numbers.",
+                "To create unique property keys that won't conflict with other keys.",
+                "To encrypt data inside objects.",
+                "To define event listeners."
+            ]
+        },
+        {
+            "id": 97,
+            "mark": 5,
+            "body": "Which JavaScript feature allows functions to return multiple values?",
+            "correct_answer": "Destructuring assignment",
+            "course": "JavaScript",
+            "level": "Hard",
+            "choices": [
+                "Generator functions",
+                "Promises",
+                "Destructuring assignment",
+                "Arrow functions"
+            ]
+        },
+        {
+            "id": 98,
+            "mark": 5,
+            "body": "What is the purpose of JavaScript's WeakMap?",
+            "correct_answer": "To store weakly held object keys that prevent memory leaks.",
+            "course": "JavaScript",
+            "level": "Hard",
+            "choices": [
+                "To create secure private variables.",
+                "To improve array search performance.",
+                "To store weakly held object keys that prevent memory leaks.",
+                "To map string keys to numeric values."
+            ]
+        },
+        {
+            "id": 99,
+            "mark": 5,
+            "body": "Which JavaScript feature allows iterating over asynchronous data sources?",
+            "correct_answer": "Async Iterators",
+            "course": "JavaScript",
+            "level": "Hard",
+            "choices": [
+                "Async Iterators",
+                "Generators",
+                "Promises",
+                "Event Listeners"
+            ]
+        }
+    ],
+    "Users": [
+        {
+            "id": 1,
+            "fname": "Ahmed",
+            "lname": "Salah",
+            "email": "ahmedLLL@example.com",
+            "password": "Ac158#45"
+        },
+        {
+            "id": 2,
+            "fname": "Mohamed",
+            "lname": "Ali",
+            "email": "moali@example.com",
+            "password": "Av89%452"
+        },
+        {
+            "id": 3,
+            "fname": "Eman",
+            "lname": "Ramadan",
+            "email": "emanr@gmail.com",
+            "password": "Em@360f85"
+        },
+        {
+            "id": 4,
+            "fname": "Nour",
+            "lname": "Abdullah",
+            "email": "Nour@hotmail.com",
+            "password": "214d85"
+        },
+        {
+            "id": 5,
+            "fname": "Rania",
+            "lname": "Khalifa",
+            "email": "raniakh@gmail.com",
+            "password": "859s28"
+        },
+        {
+            "id": 6,
+            "fname": "Sara",
+            "lname": "Reda",
+            "email": "redasara@gmail.com",
+            "password": "55j745"
+        },
+        {
+            "id": 7,
+            "fname": "Reem",
+            "lname": "Ahmed",
+            "email": "reema@yahoo.com",
+            "password": "878c52"
+        },
+        {
+            "id": 8,
+            "fname": "Hend",
+            "lname": "Hany",
+            "email": "hanoda@example.com",
+            "password": "10ss28"
+        },
+        {
+            "id": 9,
+            "fname": "Salma",
+            "lname": "yasser",
+            "email": "sayasser@gmail.com",
+            "password": "45s2e8"
+        },
+        {
+            "id": 10,
+            "fname": "Ali",
+            "lname": "Nasr",
+            "email": "ali88@gmail.com",
+            "password": "30e8e1"
+        },
+        {
+            "id": 11,
+            "fname": "Ahmed",
+            "lname": "Mansour",
+            "email": "ahmdm@gmail.com",
+            "password": "w75w99"
+        },
+        {
+            "id": 12,
+            "fname": "Ramez",
+            "lname": "Mhmoud",
+            "email": "ramez02@gmail.com",
+            "password": "5x08o9"
+        },
+        {
+            "id": 13,
+            "fname": "Ramy",
+            "lname": "Nagy",
+            "email": "ramy70@gmail.com",
+            "password": "3p95f7"
+        },
+        {
+            "id": 14,
+            "fname": "Ahmed",
+            "lname": "Khalil",
+            "email": "ziad@gmail.com",
+            "password": "a96f2v"
+        },
+        {
+            "id": 15,
+            "fname": "Rana",
+            "lname": "Zaker",
+            "email": "zrana@gmail.com",
+            "password": "4c0259"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Registration Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="Assets/CSS/login.css">
+	<script src="https://kit.fontawesome.com/608e9d3ec2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="inner">
+			<img src="Assets/Images/image-1.png" alt="Image 1" class="image-1">
+			<form action="SelectExam.html">
+				<input name="id" id="id" type="hidden">
+				<h3>Register</h3>
+				<div class="form-holder">
+					<span class="fa-solid fa-envelope"></span>
+					<input type="text" class="form-control" id="email" placeholder="Mail" required>
+				</div>
+				<div class="form-holder">
+					<span class="fa-solid fa-lock"></span>
+					<input type="password" class="form-control" id="password" placeholder="Password" required>
+				</div>
+				<span id="error">Invalid email or password</span>
+				<input type="checkbox" id="remember" value="remember">
+				<label for="remember">Remember me</label>
+				<button><span>Login</span></button>
+			</form>
+			<img src="Assets/Images/image-2.png" alt="Image 2" class="image-2">
+		</div>
+	</div>
+	<script src="Assets/JS/login.js"></script>
+</body>
+
+</html>

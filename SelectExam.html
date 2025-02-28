@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/CSS/SelectExam.css">
+    <title>Select Exam</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="white-curve"></div>
+        <div class="content">
+            <h2 id="welcome"></h2>
+            <form action="exam.html" method="get">
+
+                <p>Please select the exam type:</p>
+                <div class="form-group">
+                    <input type="radio" name="course" value="C#" id="c#">
+                    <label for="c#">C#</label>
+                    <input type="radio" name="course" value="SQL" id="sql">
+                    <label for="sql">SQL</label>
+                    <input type="radio" name="course" value="HTML" id="html">
+                    <label for="html">HTML</label>
+                    <input type="radio" name="course" value="CSS" id="css">
+                    <label for="css">CSS</label>
+                    <input type="radio" name="course" value="JavaScript" id="JavaScript">
+                    <label for="JavaScript">JavaScript</label>
+                </div>
+                <p>Please select the exam level:</p>
+                <div class="form-group">
+                    <input type="radio" name="level" value="Easy" id="level-easy">
+                    <label for="level-easy">Easy</label>
+                    <input type="radio" name="level" value="Intermediate" id="level-intermediate">
+                    <label for="level-intermediate">Intermediate</label>
+                    <input type="radio" name="level" value="Hard" id="level-hard">
+                    <label for="level-hard">Hard</label>
+                </div>
+                <p id="error">Please select both an exam level and a course before proceeding.</p>
+                <button type="submit" class="start-btn" id="start-btn">Start Exam</button>
+            </form>
+        </div>
+    </div>
+    <script src="Assets/JS/SelectExam.js"></script>
+</body>
+
+</html>

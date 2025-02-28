@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #accffe;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.container {
+    background: white;
+    width: 60%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.white-curve {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 280px;
+    height: 180px;
+    background: #6db1f4;
+    border-bottom-left-radius: 100%;
+    z-index: 1;
+}
+
+.content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    color: rgb(9, 85, 155);
+    position: relative;
+}
+
+.start-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid#6db1f4;
+    background: #6db1f4;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.start-btn:hover {
+    color: rgb(9, 85, 155);
+    background: white;
+}
+
+.form-group {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 80%;
+}
+
+.form-group label {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background: rgb(226, 226, 226);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: black;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+    border: 2px solid rgb(226, 226, 226);
+}
+
+.form-group label:hover,
+.form-group input:checked+label {
+    opacity: 0.8;
+    background: white;
+    border: 1px solid #2780cd;
+}
+
+.form-group input {
+    display: none;
+}
+
+#error {
+    color: red;
+    font-size: 14px;
+    display: none;
+}

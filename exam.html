@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Examination System</title>
+    <script src="https://kit.fontawesome.com/608e9d3ec2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Assets/CSS/exam.css" />
+</head>
+
+<body>
+    <div id="flagBox">
+        <button class="open-btn" onclick="toggleNav()">Flagged Questions</button>
+        <div id="flaggedNav" class="side-nav">
+            <a href="javascript:void(0)" class="close-btn" onclick="toggleNav()">&times;</a>
+            <h2><i class="fa-solid fa-flag"></i></h2>
+            <ul id="flaggedList">
+            </ul>
+        </div>
+    </div>
+
+    <div id="boxStart">
+        <div class="title">
+            <span class="header">Rules of this Quiz</span>
+        </div>
+        <div class="rules">
+            <ol>
+                <li>You will have <span id="Qnum">10 questions</span></li>
+                <li>You will have only <span id="timerShow">15 seconds </span>for this quiz.</li>
+                <li>You can't select any option once time goes off.</li>
+                <li>You will get your score after finishing quiz</li>
+            </ol>
+        </div>
+        <div class="buttons">
+            <button class="quit" onclick="window.location.href='SelectExam.html'">Exit Quiz</button>
+            <button class="start" id="startExam">Continue</button>
+        </div>
+    </div>
+
+    <div id="box">
+        <header>
+            <div class="title" id="title"></div>
+            <div class="timer">
+                <div class="text">Time Left</div>
+                <div class="sec" id="timer"></div>
+            </div>
+        </header>
+        <div class="quiz">
+            <div class="questionBox">
+                <h2 id="question"></h2>
+                <button id="flag-btn"><i class="fa-regular fa-flag fa-2x"></i></button>
+            </div>
+            <div id="Choices"></div>
+            <div class="buttons2">
+                <button id="prevoius-btn">Previous Question</button>
+                <div id="progress">6/7</div>
+                <button id="next-btn"></button>
+            </div>
+        </div>
+    </div>
+    <div id="scoreBox">
+        <div class="progressCicrle">
+            <div class="outer">
+                <div class="inner">
+                    <div id="number"></div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="260px" height="260px">
+                <defs>
+                    <linearGradient id="GradientColor">
+                        <stop offset="0%" stop-color="#accffe" />
+                        <stop offset="100%" stop-color="#398ad0" />
+                    </linearGradient>
+                </defs>
+                <circle cx="130" cy="130" r="120" stroke-linecap="round" />
+            </svg>
+        </div>
+        <h3 id="status"></h3>
+        <h4 id="result"></h4>
+        <button id="Home-btn" onclick="window.location.href='SelectExam.html'">Back to Home</button>
+    </div>
+
+    <script src="Assets/JS/exam.js"></script>
+</body>
+
+</html>
