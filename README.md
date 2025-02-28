@@ -1,4 +1,4 @@
-# Examination System
+# Examination System JS
 
 ## Overview
 This is a web-based Examination System that allows students to log in, select an exam, answer questions, and receive a score upon completion. The system includes user authentication, exam selection, quiz functionality, and score tracking.
@@ -64,10 +64,4 @@ exam.html         -> Examination page
 ## Future Enhancements
 - Implement backend authentication and database storage.
 - Add a dashboard for tracking student performance.
-- Enhance UI/UX with animations and additional styling.
-- Improve accessibility and responsiveness.
-
-## Author
-- **Project Team**: [Your Team Name]
-- **Technologies Used**: HTML, CSS, JavaScript
 
